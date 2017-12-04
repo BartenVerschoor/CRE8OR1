@@ -1,0 +1,24 @@
+{
+    "AS_Camera_b764fc8dbfc949e2b4b36a7108f1ee08": {
+        "id": "AS_Camera_b764fc8dbfc949e2b4b36a7108f1ee08",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRegistrate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4eb4f8503054a48b5977c6f1e27e2be"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c4fac68a4d954634a822d9bb1211d512",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.getCurrentForm().cameraImage.rawBytes=\n  kony.application.getCurrentForm().Camera.rawBytes;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

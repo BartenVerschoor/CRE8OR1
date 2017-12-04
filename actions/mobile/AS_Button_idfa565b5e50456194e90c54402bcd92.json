@@ -1,0 +1,45 @@
+{
+    "AS_Button_idfa565b5e50456194e90c54402bcd92": {
+        "id": "AS_Button_idfa565b5e50456194e90c54402bcd92",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a22d8e8371d24e128edfce6d98dddfa3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION____b9f835eab1db437f8eae2f399754d93b",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {},
+                "rectified": true
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION____b9f835eab1db437f8eae2f399754d93b",
+            "displayAnimationId": "ROTATE_ACTION____b9f835eab1db437f8eae2f399754d93b",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

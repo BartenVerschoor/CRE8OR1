@@ -1,0 +1,24 @@
+{
+    "AS_Button_cdae08a2de5d44a082349b4e110c28a0": {
+        "id": "AS_Button_cdae08a2de5d44a082349b4e110c28a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmContact1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d0bd8ecbd9944de3a69d35474a1adc83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g4d7aaf4175d4d2ca931d81c84ecb231",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {kony.accelerometer.retrieveCurrentAcceleration(onSuccessCallback, onFailureCallback);}\n\tcatch (err) {\n    alert(\"Accelerometer not supported\");}\n\nfunction onSuccessCallback( accelerometerdata) {\n  \talert(\"X: \" + accelerometerdata.x+ \n          \" Y: \" + accelerometerdata.y+ \n          \" Z: \" + accelerometerdata.z);\n}\n        function onFailureCallback(error) {\n  alert(\"Accelerometer is not supported in the device.\");}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0f42f79ca504236866b0d9f04000d69",
+    "_text_": "REGISTRATE",
+    "_top_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "202dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.07%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s314024c67c04e60aa880fbe55a4a413",
+    "id": "registrateButton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dd3a122d2cbd4fb7981976744172c814",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_f13d6ae5cd014060ade49939e794d7a6",
+    "paddinginpixel": false,
+    "parent": "frmStart",
+    "pf": "frmStart",
+    "wType": "Button",
+    "zindex": 1
+}

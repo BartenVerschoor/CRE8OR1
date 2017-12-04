@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1d744dcb78b4ec1aa2db25d363fd40a",
+    "_src_": "option3.png",
+    "_top_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmContacts",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "CopyImage0g2abb45256ab44",
+    "imagescalemode": 1,
+    "imagewhiledownloading": "option3.png",
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "cd32a8cebd084511a2dc1f3a3b3f36e2",
+    "name": "kony.ui.Image2",
+    "parent": "FlexScrollContainerContacts",
+    "pf": "frmContacts",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 2
+}

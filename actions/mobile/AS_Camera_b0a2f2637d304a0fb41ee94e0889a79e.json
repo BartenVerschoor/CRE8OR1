@@ -1,0 +1,30 @@
+{
+    "AS_Camera_b0a2f2637d304a0fb41ee94e0889a79e": {
+        "id": "AS_Camera_b0a2f2637d304a0fb41ee94e0889a79e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmRegistrate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4eb4f8503054a48b5977c6f1e27e2be"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jbbfffbf9dba4c548b6334db4eb92d79",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

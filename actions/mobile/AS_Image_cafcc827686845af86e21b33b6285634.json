@@ -1,0 +1,24 @@
+{
+    "AS_Image_cafcc827686845af86e21b33b6285634": {
+        "id": "AS_Image_cafcc827686845af86e21b33b6285634",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "name": "frmContacts",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bc219195be374c4e9d8ce838ab8849b6"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
